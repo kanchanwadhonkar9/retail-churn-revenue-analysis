@@ -1,0 +1,4 @@
+contract,customers,churned_customers,monthly_revenue,revenue_at_risk,avg_monthly_charge,avg_observed_customer_value,avg_tenure_months,churn_rate_pct
+Month-to-month,3875,1655,257294.15,120847.1,66.4,1369.25,18.04,42.71
+One year,1473,166,95816.6,14118.45,65.05,3032.62,42.04,11.27
+Two year,1695,48,103005.85,4165.3,60.77,3706.93,56.74,2.83

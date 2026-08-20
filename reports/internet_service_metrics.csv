@@ -1,0 +1,4 @@
+internet_service,customers,churned_customers,monthly_revenue,revenue_at_risk,avg_monthly_charge,avg_observed_customer_value,avg_tenure_months,churn_rate_pct
+Fiber optic,3096,1297,283284.4,114300.05,91.5,3205.3,32.92,41.89
+DSL,2421,459,140665.35,22529.2,58.1,2115.41,32.82,18.96
+No,1526,113,32166.85,2301.6,21.08,662.6,30.55,7.4

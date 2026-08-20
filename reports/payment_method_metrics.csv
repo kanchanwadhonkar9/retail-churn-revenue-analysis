@@ -1,0 +1,5 @@
+payment_method,customers,churned_customers,monthly_revenue,revenue_at_risk,avg_monthly_charge,avg_observed_customer_value,avg_tenure_months,churn_rate_pct
+Electronic check,2365,1071,180345.0,84288.75,76.26,2090.87,25.17,45.29
+Mailed check,1612,308,70794.3,16803.6,43.92,1049.25,21.83,19.11
+Bank transfer (automatic),1544,258,103745.45,20091.9,67.19,3075.31,43.66,16.71
+Credit card (automatic),1522,232,101231.85,17946.6,66.51,3069.38,43.27,15.24

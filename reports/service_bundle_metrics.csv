@@ -1,0 +1,4 @@
+service_bundle,customers,churned_customers,monthly_revenue,revenue_at_risk,avg_monthly_charge,avg_observed_customer_value,avg_tenure_months,churn_rate_pct
+Standard Internet,4418,1657,334411.0,128320.0,75.69,2317.23,28.25,37.51
+Protected Internet,1099,99,89538.75,8509.25,81.47,4374.43,51.48,9.01
+Phone Only,1526,113,32166.85,2301.6,21.08,662.6,30.55,7.4

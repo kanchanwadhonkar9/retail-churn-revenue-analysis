@@ -1,0 +1,3 @@
+customer_type,customers,churned_customers,monthly_revenue,revenue_at_risk,avg_monthly_charge,avg_observed_customer_value,avg_tenure_months,churn_rate_pct
+Senior Citizen,1142,476,91154.85,38419.6,79.82,2810.47,33.3,41.68
+Non-Senior,5901,1393,364961.75,100711.25,61.85,2177.02,32.19,23.61

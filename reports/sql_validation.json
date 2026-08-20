@@ -1,0 +1,399 @@
+[
+  {
+    "query_id": "Q01",
+    "question": "What are the headline portfolio KPIs?",
+    "rows_returned": 1,
+    "sample": [
+      {
+        "customers": 7043,
+        "churned_customers": 1869,
+        "churn_rate_pct": 26.54,
+        "monthly_recurring_revenue": 456116.6,
+        "monthly_revenue_at_risk": 139130.85,
+        "average_observed_customer_value": 2279.73
+      }
+    ]
+  },
+  {
+    "query_id": "Q02",
+    "question": "Which contract type has the highest churn rate?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "contract": "Month-to-month",
+        "customers": 3875,
+        "churned_customers": 1655,
+        "churn_rate_pct": 42.71,
+        "monthly_revenue": 257294.15,
+        "monthly_revenue_at_risk": 120847.1
+      },
+      {
+        "contract": "One year",
+        "customers": 1473,
+        "churned_customers": 166,
+        "churn_rate_pct": 11.27,
+        "monthly_revenue": 95816.6,
+        "monthly_revenue_at_risk": 14118.45
+      },
+      {
+        "contract": "Two year",
+        "customers": 1695,
+        "churned_customers": 48,
+        "churn_rate_pct": 2.83,
+        "monthly_revenue": 103005.85,
+        "monthly_revenue_at_risk": 4165.3
+      }
+    ]
+  },
+  {
+    "query_id": "Q03",
+    "question": "How does monthly revenue distribute across contract types?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "contract": "Month-to-month",
+        "monthly_revenue": 257294.15,
+        "revenue_mix_pct": 56.41,
+        "avg_monthly_charge": 66.4
+      },
+      {
+        "contract": "Two year",
+        "monthly_revenue": 103005.85,
+        "revenue_mix_pct": 22.58,
+        "avg_monthly_charge": 60.77
+      },
+      {
+        "contract": "One year",
+        "monthly_revenue": 95816.6,
+        "revenue_mix_pct": 21.01,
+        "avg_monthly_charge": 65.05
+      }
+    ]
+  },
+  {
+    "query_id": "Q04",
+    "question": "Is churn elevated for any internet-service group?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "internet_service": "Fiber optic",
+        "customers": 3096,
+        "churn_rate_pct": 41.89,
+        "monthly_revenue_at_risk": 114300.05,
+        "avg_monthly_charge": 91.5
+      },
+      {
+        "internet_service": "DSL",
+        "customers": 2421,
+        "churn_rate_pct": 18.96,
+        "monthly_revenue_at_risk": 22529.2,
+        "avg_monthly_charge": 58.1
+      },
+      {
+        "internet_service": "No",
+        "customers": 1526,
+        "churn_rate_pct": 7.4,
+        "monthly_revenue_at_risk": 2301.6,
+        "avg_monthly_charge": 21.08
+      }
+    ]
+  },
+  {
+    "query_id": "Q05",
+    "question": "Which payment methods correlate with higher churn?",
+    "rows_returned": 4,
+    "sample": [
+      {
+        "payment_method": "Electronic check",
+        "customers": 2365,
+        "churn_rate_pct": 45.29,
+        "monthly_revenue_at_risk": 84288.75
+      },
+      {
+        "payment_method": "Mailed check",
+        "customers": 1612,
+        "churn_rate_pct": 19.11,
+        "monthly_revenue_at_risk": 16803.6
+      },
+      {
+        "payment_method": "Bank transfer (automatic)",
+        "customers": 1544,
+        "churn_rate_pct": 16.71,
+        "monthly_revenue_at_risk": 20091.9
+      }
+    ]
+  },
+  {
+    "query_id": "Q06",
+    "question": "What does the retention trend look like across tenure bands?",
+    "rows_returned": 4,
+    "sample": [
+      {
+        "tenure_band": "0-12 months",
+        "min_tenure_months": 0,
+        "max_tenure_months": 12,
+        "customers": 2186,
+        "retention_rate_pct": 52.56,
+        "churn_rate_pct": 47.44
+      },
+      {
+        "tenure_band": "13-24 months",
+        "min_tenure_months": 13,
+        "max_tenure_months": 24,
+        "customers": 1024,
+        "retention_rate_pct": 71.29,
+        "churn_rate_pct": 28.71
+      },
+      {
+        "tenure_band": "25-48 months",
+        "min_tenure_months": 25,
+        "max_tenure_months": 48,
+        "customers": 1594,
+        "retention_rate_pct": 79.61,
+        "churn_rate_pct": 20.39
+      }
+    ]
+  },
+  {
+    "query_id": "Q07",
+    "question": "Which customers have the highest observed customer value (CLV proxy)?",
+    "rows_returned": 10,
+    "sample": [
+      {
+        "customer_id": "2889-FPWRM",
+        "contract": "One year",
+        "tenure": 72,
+        "observed_customer_value": 8684.8,
+        "monthly_charges": 117.8,
+        "churn": "Yes"
+      },
+      {
+        "customer_id": "7569-NMZYQ",
+        "contract": "Two year",
+        "tenure": 72,
+        "observed_customer_value": 8672.45,
+        "monthly_charges": 118.75,
+        "churn": "No"
+      },
+      {
+        "customer_id": "9739-JLPQJ",
+        "contract": "Two year",
+        "tenure": 72,
+        "observed_customer_value": 8670.1,
+        "monthly_charges": 117.5,
+        "churn": "No"
+      }
+    ]
+  },
+  {
+    "query_id": "Q08",
+    "question": "Which churned customers represent the largest monthly revenue-at-risk?",
+    "rows_returned": 10,
+    "sample": [
+      {
+        "customer_id": "8199-ZLLSA",
+        "contract": "One year",
+        "internet_service": "Fiber optic",
+        "payment_method": "Bank transfer (automatic)",
+        "tenure": 67,
+        "monthly_revenue_at_risk": 118.35,
+        "observed_customer_value": 7804.15
+      },
+      {
+        "customer_id": "2889-FPWRM",
+        "contract": "One year",
+        "internet_service": "Fiber optic",
+        "payment_method": "Bank transfer (automatic)",
+        "tenure": 72,
+        "monthly_revenue_at_risk": 117.8,
+        "observed_customer_value": 8684.8
+      },
+      {
+        "customer_id": "2302-ANTDP",
+        "contract": "Month-to-month",
+        "internet_service": "Fiber optic",
+        "payment_method": "Electronic check",
+        "tenure": 48,
+        "monthly_revenue_at_risk": 117.45,
+        "observed_customer_value": 5438.9
+      }
+    ]
+  },
+  {
+    "query_id": "Q09",
+    "question": "Which service bundle has the strongest retention performance?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "service_bundle": "Phone Only",
+        "customers": 1526,
+        "retention_rate_pct": 92.6,
+        "churn_rate_pct": 7.4,
+        "monthly_revenue": 32166.85
+      },
+      {
+        "service_bundle": "Protected Internet",
+        "customers": 1099,
+        "retention_rate_pct": 90.99,
+        "churn_rate_pct": 9.01,
+        "monthly_revenue": 89538.75
+      },
+      {
+        "service_bundle": "Standard Internet",
+        "customers": 4418,
+        "retention_rate_pct": 62.49,
+        "churn_rate_pct": 37.51,
+        "monthly_revenue": 334411.0
+      }
+    ]
+  },
+  {
+    "query_id": "Q10",
+    "question": "How does churn vary by customer type and household status?",
+    "rows_returned": 7,
+    "sample": [
+      {
+        "customer_type": "Senior Citizen",
+        "partner": "No",
+        "dependents": "No",
+        "customers": 561,
+        "churn_rate_pct": 49.2,
+        "monthly_revenue_at_risk": 21545.5
+      },
+      {
+        "customer_type": "Senior Citizen",
+        "partner": "Yes",
+        "dependents": "No",
+        "customers": 490,
+        "churn_rate_pct": 36.33,
+        "monthly_revenue_at_risk": 15041.7
+      },
+      {
+        "customer_type": "Non-Senior",
+        "partner": "No",
+        "dependents": "No",
+        "customers": 2719,
+        "churn_rate_pct": 31.15,
+        "monthly_revenue_at_risk": 59160.15
+      }
+    ]
+  },
+  {
+    "query_id": "Q11",
+    "question": "Where is the greatest recurring revenue exposure by contract?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "contract": "Month-to-month",
+        "churned_customers": 1655,
+        "monthly_revenue_at_risk": 120847.1,
+        "annualized_revenue_at_risk": 1450165.2,
+        "risk_mix_pct": 86.86
+      },
+      {
+        "contract": "One year",
+        "churned_customers": 166,
+        "monthly_revenue_at_risk": 14118.45,
+        "annualized_revenue_at_risk": 169421.4,
+        "risk_mix_pct": 10.15
+      },
+      {
+        "contract": "Two year",
+        "churned_customers": 48,
+        "monthly_revenue_at_risk": 4165.3,
+        "annualized_revenue_at_risk": 49983.6,
+        "risk_mix_pct": 2.99
+      }
+    ]
+  },
+  {
+    "query_id": "Q12",
+    "question": "Do technical-support customers retain better than customers without support?",
+    "rows_returned": 3,
+    "sample": [
+      {
+        "tech_support": "No internet service",
+        "customers": 1526,
+        "churn_rate_pct": 7.4,
+        "retention_rate_pct": 92.6,
+        "avg_monthly_charge": 21.08
+      },
+      {
+        "tech_support": "Yes",
+        "customers": 2044,
+        "churn_rate_pct": 15.17,
+        "retention_rate_pct": 84.83,
+        "avg_monthly_charge": 80.68
+      },
+      {
+        "tech_support": "No",
+        "customers": 3473,
+        "churn_rate_pct": 41.64,
+        "retention_rate_pct": 58.36,
+        "avg_monthly_charge": 74.59
+      }
+    ]
+  },
+  {
+    "query_id": "Q13",
+    "question": "How does churn vary across observed customer-value quartiles?",
+    "rows_returned": 4,
+    "sample": [
+      {
+        "clv_quartile": 1,
+        "customers": 1761,
+        "min_observed_value": 0.0,
+        "max_observed_value": 398.55,
+        "churn_rate_pct": 43.27
+      },
+      {
+        "clv_quartile": 2,
+        "customers": 1761,
+        "min_observed_value": 398.55,
+        "max_observed_value": 1394.55,
+        "churn_rate_pct": 25.38
+      },
+      {
+        "clv_quartile": 3,
+        "customers": 1761,
+        "min_observed_value": 1395.05,
+        "max_observed_value": 3789.2,
+        "churn_rate_pct": 23.0
+      }
+    ]
+  },
+  {
+    "query_id": "Q14",
+    "question": "Which addressable segment combines high risk and material revenue exposure?",
+    "rows_returned": 32,
+    "sample": [
+      {
+        "contract": "Month-to-month",
+        "internet_service": "Fiber optic",
+        "payment_method": "Electronic check",
+        "customers": 1307,
+        "churn_rate_pct": 60.37,
+        "monthly_revenue_at_risk": 68281.5,
+        "annualized_revenue_at_risk": 819378.0
+      },
+      {
+        "contract": "Month-to-month",
+        "internet_service": "Fiber optic",
+        "payment_method": "Bank transfer (automatic)",
+        "customers": 327,
+        "churn_rate_pct": 45.57,
+        "monthly_revenue_at_risk": 13062.1,
+        "annualized_revenue_at_risk": 156745.2
+      },
+      {
+        "contract": "Month-to-month",
+        "internet_service": "Fiber optic",
+        "payment_method": "Credit card (automatic)",
+        "customers": 293,
+        "churn_rate_pct": 41.64,
+        "monthly_revenue_at_risk": 10731.15,
+        "annualized_revenue_at_risk": 128773.8
+      }
+    ]
+  }
+]

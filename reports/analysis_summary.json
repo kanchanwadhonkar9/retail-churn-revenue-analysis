@@ -1,0 +1,46 @@
+{
+  "overall": {
+    "customers": 7043,
+    "churned_customers": 1869,
+    "retained_customers": 5174,
+    "churn_rate_pct": 26.54,
+    "monthly_recurring_revenue": 456116.6,
+    "monthly_revenue_at_risk": 139130.85,
+    "observed_customer_value": 16056168.7,
+    "avg_observed_customer_value": 2279.73,
+    "avg_monthly_charge": 64.76,
+    "avg_tenure_months": 32.37
+  },
+  "key_insights": [
+    {
+      "finding": "Month-to-month contracts are the highest-risk contract type.",
+      "evidence": "Churn is 42.7% for month-to-month customers versus 2.8% for two-year customers (15.1x higher).",
+      "metric": 42.71
+    },
+    {
+      "finding": "Churn is concentrated in the first year of tenure.",
+      "evidence": "Customers with 0-12 months tenure churn at 47.4% versus 9.5% for 49+ months.",
+      "metric": 47.44
+    },
+    {
+      "finding": "Fiber optic customers show elevated churn.",
+      "evidence": "Fiber optic churn is 41.9% versus 19.0% for DSL, a 22.9 percentage-point gap.",
+      "metric": 41.89
+    },
+    {
+      "finding": "Electronic-check customers are a high-priority payment-friction segment.",
+      "evidence": "Electronic-check churn is 45.3% versus 17.1% for other payment methods.",
+      "metric": 45.29
+    }
+  ],
+  "recommendation_segment": {
+    "customers": 1850,
+    "churn_rate_pct": 53.73,
+    "monthly_revenue_at_risk": 77315.6,
+    "annualized_revenue_at_risk": 927787.2
+  },
+  "definitions": {
+    "estimated_clv": "Observed customer value proxy equal to cleaned TotalCharges; the public snapshot does not include margin, discount, or future-survival assumptions.",
+    "retention_trend": "Retention by tenure band, because this snapshot has no transaction date or acquisition cohort date for calendar month-over-month analysis."
+  }
+}
