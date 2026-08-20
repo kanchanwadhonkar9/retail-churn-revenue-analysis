@@ -1,0 +1,22 @@
+{
+  "source": "IBM Telco Customer Churn sample; Kaggle listing: https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+  "raw_rows": 7043,
+  "raw_columns": 21,
+  "cleaned_rows": 7043,
+  "cleaned_columns": 29,
+  "exact_duplicate_rows_removed": 0,
+  "blank_total_charges_rows": 11,
+  "total_charges_imputed_to_zero": 11,
+  "rows_requiring_cleaning": 11,
+  "percent_of_rows_requiring_cleaning": 0.16,
+  "iqr_outliers": {
+    "monthly_charges": 0,
+    "total_charges": 0
+  },
+  "invalid_values_after_coercion": {
+    "invalid_tenure": 0,
+    "invalid_monthly_charges": 0,
+    "invalid_total_charges": 0
+  },
+  "cleaning_method": "Trim object fields; coerce numeric fields; impute zero-tenure blank TotalCharges to 0; impute remaining numeric gaps with median; fill remaining categorical gaps with Unknown; clip logical ranges; winsorize IQR outliers."
+}
